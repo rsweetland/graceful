@@ -397,13 +397,15 @@ noscript > #main-outlet {
 }
 
 // force create-topic to be a primary button
-#create-topic {
+button#create-topic {
     background: var(--tertiary);
     color: var(--secondary);
     border-color: var(--tertiary);
     &:hover {
-      background: var(--tertiary);
-      color: var(--secondary);
-      border-color: var(--tertiary);
+      background: var(--tertiary-hover);
     }
+}
+
+button#create-topic svg {
+   color: white
 }

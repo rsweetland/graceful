@@ -395,3 +395,16 @@ span.user-title {
 noscript > #main-outlet {
   padding-top: 6em;
 }
+
+// make create-topic a primary button
+#create-topic {
+    background: var(--tertiary);
+    color: var(--secondary);
+    border-color: var(--tertiary);
+    &:hover {
+      background: var(--tertiary);
+      color: var(--secondary);
+      border-color: var(--tertiary);
+    }
+}
+}
